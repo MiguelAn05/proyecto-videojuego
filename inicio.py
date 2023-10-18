@@ -1,11 +1,12 @@
+#proyecto integrador parte 1
 nombre = input ("escribe tu nombre:")
 print ("bienvenido", nombre)
 
 
-
+#proyecto integrador parte 2
 import readchar
 from readchar import readkey, key
-
+print("presiona cualquier tecla y w para salir del programa")
 while True:
   
  try:
@@ -18,8 +19,7 @@ while True:
   break
 
 
-
-
+#proyecto integrador parte 3
 import os
 import readchar
 n=0
@@ -35,6 +35,13 @@ while n < 50:
      break
   except KeyboardInterrupt:
    break
+
+
+
+
+
+
+ 
    
 
 
